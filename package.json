@@ -19,7 +19,7 @@
 	"scripts": {
 		"start": "react-scripts-ts start",
 		"start:prod": "serve -s build",
-		"build": "react-scripts-ts build",
+		"build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts-ts build",
 		"test": "jest",
 		"eject": "react-scripts-ts eject",
 		"precommit": "lint-staged",
