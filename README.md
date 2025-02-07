@@ -36,3 +36,7 @@ The page will reload if you make edits. You will also see any lint errors in the
 
 [mockup]: https://drive.google.com/open?id=1SMvxNQYf-LHdBhKkIun94erDeCmNcs3u
 [themoviedb]: https://www.themoviedb.org/documentation/api
+
+## Deployment
+
+This project is deployed on Vercel and can be accessed at: [https://movies-sable-chi.vercel.app/](https://movies-sable-chi.vercel.app/)
