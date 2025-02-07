@@ -4,7 +4,7 @@ import { IMovieResponse } from '../types';
 
 export default class MoviesStore {
 	@observable public list: IMovieResponse[] = [];
-	@observable public total: number;
+	@observable public total!: number;
 
 	public init() {
 		this.fetchMovies();
