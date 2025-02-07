@@ -17,11 +17,11 @@ export interface IAccordionState {
 class UnstyledAccordion extends React.PureComponent<IAccordionProps, IAccordionState> {
 	constructor(props: IAccordionProps) {
 		super(props);
-		this.state = { open: props.initOpen ? true : false };
+		this.state = { open: !!props.initOpen };
 	}
 
 	public toggleOpen = () => {
-		this.setState({ open: !this.state.open });
+		this.setState(prevState => ({ open: !prevState.open }));
 	};
 
 	public render() {
